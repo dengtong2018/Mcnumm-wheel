@@ -1,0 +1,14 @@
+---- Wheel_Ctl Matches (13 in 3 files) ----
+McNamm wheel.htm (mdk-arm\mcnamm wheel):main &rArr; LeftJoyHandle(LeftJoystick) &rArr; McNamm_ctl::Kinematic_Analysis(float, float, float) &rArr; McNamm_ctl::Wheel_Ctl(float, float, float, float) &rArr; McNamm_ctl::single_wheel_speed(WheelNum, unsigned short) &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = LeftJoyHandle(LeftJoystick) &rArr; McNamm_ctl::Kinematic_Analysis(float, float, float) &rArr; McNamm_ctl::Wheel_Ctl(float, float, float, float) &rArr; McNamm_ctl::single_wheel_speed(WheelNum, unsigned short) &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;McNamm_ctl::Wheel_Ctl(float, float, float, float)
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = McNamm_ctl::Kinematic_Analysis(float, float, float) &rArr; McNamm_ctl::Wheel_Ctl(float, float, float, float) &rArr; McNamm_ctl::single_wheel_speed(WheelNum, unsigned short) &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;McNamm_ctl::Wheel_Ctl(float, float, float, float)
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;McNamm_ctl::Wheel_Ctl(float, float, float, float)
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<P><STRONG><a name="[f0]"></a>McNamm_ctl::Wheel_Ctl(float, float, float, float)</STRONG> (Thumb, 330 bytes, Stack size 64 bytes, mcnamm_ctl.o(i._ZN10McNamm_ctl9Wheel_CtlEffff))
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = McNamm_ctl::Wheel_Ctl(float, float, float, float) &rArr; McNamm_ctl::single_wheel_speed(WheelNum, unsigned short) &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;McNamm_ctl::Wheel_Ctl(float, float, float, float)
+McNamm wheel.htm (mdk-arm\mcnamm wheel):<BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = main &rArr; LeftJoyHandle(LeftJoystick) &rArr; McNamm_ctl::Kinematic_Analysis(float, float, float) &rArr; McNamm_ctl::Wheel_Ctl(float, float, float, float) &rArr; McNamm_ctl::single_wheel_speed(WheelNum, unsigned short) &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+McNamm_ctl.cpp (lib\mcnamm_ctl):void McNamm_ctl::Wheel_Ctl(float a , float b , float c , float d)
+McNamm_ctl.cpp (lib\mcnamm_ctl):	Wheel_Ctl(Target_A , Target_B , Target_C  , Target_D);
+McNamm_ctl.h (lib\mcnamm_ctl):		void Wheel_Ctl(float a , float b , float c , float d);
